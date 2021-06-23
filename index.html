@@ -12,13 +12,18 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
 </head>
 
 <body>
-
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
     <!-- End #mobile-menu-toggle -->
     <header>
+        <div id="mobile-menu-close">
+            <span>Cerrar</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
         <ul id="menu" class="shadow">
             <li>
                 <a href="#about">Acerca de Mí</a>
@@ -113,8 +118,8 @@
         <h2 class="heading">Educación</h2>
         <div class="education-block">
             <h3>Universidad del Estado de Guanajuato</h3>
-            <span class="education-date">Enero 2020 - Actual - VIRTUAL</span>
-            <h4>Licenciado en Derecho - Especialización en el ámbito informático.</h4>
+            <span class="education-date">Enero 2020 - Actual - COMPLETAMENTE VIRTUAL</span>
+            <h4>Licenciado en Derecho - Especializacion Especialización en el ámbito informático.</h4>
             <p>
                 El Licenciado en derecho con Especialización en el ámbito informático tendrá las herramientas necesarias, para expresar y establecer un criterio en razón de las problemáticas jurídicas que se generen en los sistemas de información y avances tecnológicos, ello relacionado con los impactos jurídicos.
             </p>
@@ -166,7 +171,7 @@
                         <p>
                             Un prototipo realizado para una excelente fotógrafa de la ciudad, un proyecto pequeño que hice con Adobe XD, también realizado en Sketch.  
                         </p>
-                        <button class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Ver Proyecto</button>
+                        <button class="btn btn-danger" data-toggle="modal" data-target=".myModal">Ver Proyecto</button>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -178,11 +183,10 @@
 
     <!--modal con carousel-->
     <div class="container text-center">
-        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal fade myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
                                 <img class="img-responsive" src="images/haro1.png" alt="...">
@@ -194,12 +198,11 @@
                                 <img class="img-responsive" src="images/haro3.png" alt="...">
                             </div>
                         </div>
-                        <!-- Controls -->
                         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="fa fa-chevron-left"></span>
                         </a>
                         <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="fa fa-chevron-right"></span>
                         </a>
                     </div>
                 </div>
