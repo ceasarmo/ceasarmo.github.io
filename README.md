@@ -1,1 +1,1 @@
-V2 de cnycn, esta version no contiene
+V2 de cnycn, esta version esta hecha en HTML, CSS, Bootstrap y un poco de JS. El proyecto esta hosteado en Github Pages con un dominio personalizado de Hostgator, por lo que tiene que pasar primero por Cloudfare para poder funcionar correctamente.
